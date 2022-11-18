@@ -1,0 +1,29 @@
+body{
+    background-color: antiquewhite;
+    font-family: sans-serif ;
+
+}
+
+span{
+    color: darkblue;
+    font-size: 50px;
+}
+h2{
+    background-color: cadetblue;
+    color: gold;
+}
+#CL{
+    color: blue;
+}
+
+#CL{
+    color: blue;
+    font-size: 20px;
+}
+#favourites{
+    background-color:whitesmoke;
+    font-family: serif;
+}
+h5{
+    color: crimson;
+}
