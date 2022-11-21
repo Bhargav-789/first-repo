@@ -31,12 +31,17 @@ hr{
 }
 h3{
     text-align: center;
+    text-decoration: underline;
 
     
 }
 h4{
     text-align: center;
+    text-decoration: underline;
     
+}
+h6{
+    margin-bottom: 5px;
 }
 #favourites{
     text-align: center;
