@@ -1,0 +1,31 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    height: 1000px;
+    width: 720px;
+}
+#blue{
+    background-color: #0000ff;
+    height: 24vh;
+    width: 50vw;
+}
+#blue:active{
+    box-shadow:  20px  2px red;
+}
+#Yellow{
+    background-color: #ffff00;
+    height: 24vh;
+    width: 50vw;
+}
+#purple{
+    background-color: #800080;
+    height: 24vh;
+    width: 50vw;
+}
+#red{
+    background-color: #ff0000;
+    height: 24vh;
+    width: 50vw;
+}
