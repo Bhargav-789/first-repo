@@ -3,8 +3,9 @@
     padding: 0%;
 }
 .container{
-    height: 1000px;
-    width: 720px;
+    height: 100 0px;
+    width: 100%;
+    
 }
 #blue{
     background-color: #0000ff;
@@ -21,11 +22,11 @@
 }
 #purple{
     background-color: #800080;
-    height: 24vh;
-    width: 50vw;
+    height: 9rem;
+    width: 23rem;
 }
 #red{
     background-color: #ff0000;
-    height: 24vh;
-    width: 50vw;
+    height: 9em;
+    width: 23em;
 }
