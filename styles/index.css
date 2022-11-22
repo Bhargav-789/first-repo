@@ -5,7 +5,7 @@
 }
 body{
     font-family: sans-serif ;
-    background-color: aquamarine;
+    background-color: #7fffd4;
 }
 .Container{
     margin: 20px 100px 20px 100px;  
@@ -27,7 +27,7 @@ hr{
 }
 #hobbies{
     padding: 20px;
-    background-color: antiquewhite;
+    background-color: #faebd7;
 }
 h3{
     text-align: center;
@@ -45,7 +45,7 @@ h6{
 }
 #favourites{
     text-align: center;
-    background-color: antiquewhite;
+    background-color: #faebd7;
     padding: 20px;
 }
 img{
@@ -54,6 +54,22 @@ img{
     margin: 10px;
 }
 .links{
+    display: block;
+    width:100px ;
+    height: 100px;
     text-align: center;
 }
+a{
+    color:#0014FF ;
+}
+a:visited{
+    color:#009EFF ;
+}
+a:hover{
+    color:#FF8FB1 ;
+}
+
+
+
+
 
