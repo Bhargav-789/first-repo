@@ -1,105 +1,108 @@
 *{
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-}
-header{
-    margin-right: 10px;
-    margin-top: 10px;
-    margin-bottom: 15px;
-    
 }
 
-nav {
+#nav1{
     text-align: right;
-
-
-}
-nav a{
-    text-decoration: none;
-    color: rgb(20, 20, 20);
-}
-nav :hover{
-    text-decoration: underline;
+    margin: 20px;
 }
 
-img {
-    width:350px ;
-    margin-bottom: 10px;
-   
-}
-
-#image {
-    text-align: center;
+#nav1 a{
     
+    margin: 10px;
 }
-
-#Sec{
-    text-align: center;
+#nav1 button
+{
+    padding: 2px;
 }
-input{
-    width: 500px;
-    height: 30px;
-    border-radius: 15px;
-    margin-bottom: 15px;
-
-}
-
 button{
     padding: 5px;
     margin:10px 10px 30px 10px ;
     
     background-color: #f0ffff;
     border: #f0ffff;
-}
-button:hover{
-    border: 1px solid  rgb(221, 217, 217);
     
+}
+
+ button:hover{
+    border: 1px solid  rgb(221, 217, 217);
+}
+
+
+header{
+    margin:20px ;
+}
+
+.Sec{
+    text-align: center;
+}
+#Google{
+    margin-bottom: 15px;
+   
+}
+img{
+    height: 90px;
+    width: 280px;
+}
+input{
+    width: 500px;
+    height: 40px;
+    border-radius:15px ;
+    margin-bottom:15px ;
+}
+#button2{
+    padding:20px ;
+}
+#languages{
+    margin: 5px 10px ;
+}
+#languages a:hover{
+    text-decoration: underline;
 }
 hr{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-#ind{
+
+footer{
+    margin-top: 170px;
+    height: 80px;
+    background-color: rgb(216, 213, 213);
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+#f-1{
     margin-left: 20px;
 }
-#Ab{
-    margin-left: 20px;
+#f-2{
+    margin-left: 20px; 
+
 }
-#nav1 a{
-    padding: 10px;
-    text-decoration: none;
-    color: rgb(20, 20, 20);
-}
-#nav1{
-    float: left;
-    
-}
-#nav2{
-    margin-right: 30px;
-    text-decoration: none;
-    
-    
-}
-#nav2 a{
-    padding: 20px;
-    color: rgb(20, 20, 20);
-    
+#f-2 a{
+    margin: 20px 20px 20px 0px;
 }
 
-#nav2 a:hover{
+
+#right{
+    float: right;
+}
+a{
+    text-decoration: none;
+}
+footer a:hover{
     text-decoration: underline;
 }
-.footer-sec{
-    background-color: rgb(219, 214, 214);
-    height: 80px;
-    padding: 10px 0px 30px 0px;
- margin-top: 165px;
-}
+
+
+
+
+
 
 
 
