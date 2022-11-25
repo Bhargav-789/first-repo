@@ -51,4 +51,10 @@ button:hover{
 p{
     text-align: center;   
 }
+
+i{
+    position: relative;
+    margin-right: -30px;
+    /* margin-bottom: 10px; */
+}
    
