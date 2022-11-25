@@ -3,32 +3,41 @@
     padding: 0%;
     box-sizing: border-box;
 }
+
 body{
     font-family: sans-serif ;
     background-color: #7fffd4;
+    font-size: 1.5em;
 }
+
 .Container{
     margin: 20px 100px 20px 100px;  
-
 }
+
 h1{
     text-align: center;
 }
+
 h2{
     text-align: center;
 }
+
 #self{
     text-align: center;
 }
+
 hr{
     border-top: dotted;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 20px;  
 }
+
 #hobbies{
-    padding: 20px;
+  padding: 1.5em;
+    /* padding: 20px; */
     background-color: #faebd7;
 }
+
 h3{
     text-align: center;
     text-decoration: underline;
@@ -40,39 +49,49 @@ h4{
     text-decoration: underline;
     
 }
+
 h6{
     margin-bottom: 5px;
 }
+
 #favourites{
     text-align: center;
     background-color: #faebd7;
-    padding: 20px;
+    /* padding: 20px;  */
+     padding: 1.5em;
 }
+
 img{
-    height: 150px;
-    width: 150px;
+    /* height: 150px;
+    width: 150px; */
+    height: 5em;
+    width: 5em;
     margin: 10px;
 }
+
 .links{
     display: block;
     width:100px ;
     height: 100px;
     text-align: center;
 }
+
 a{
     color:#0014FF ;
 }
+
 a:visited{
     color:#009EFF ;
 }
+
 a:hover{
     color:#FF8FB1 ;
 }
-
+/* 
 header{
     position: sticky;
     top: 20px;
-}
+} */
 
 
 
