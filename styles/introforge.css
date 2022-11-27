@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ header{
+    background-color: #7e7eff;
+    min-height: 65px;
+ }
+
+#h1-intro{
+    float: left;
+    margin-left: 6.2rem;
+    margin-top: 0.8rem;
+}
+
+#nav-1{
+    margin-left: 39.8rem;
+padding-top: 20px;
+   
+}
+a{
+    margin-left: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+section{
+    min-height: 16em;
+    margin: 20px 0px;
+    display: block;
+}
+
+#showcase{
+    min-height: 150px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h2{
+    font-weight:bold;
+    font-size: 40px;
+}
+
+p{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+#showcase span{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+button{
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    border-radius: 5px;
+    background-color: #7e7eff;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+}
+
+button:hover{
+    box-shadow: 0px 0px 3px 2px #ffa600;
+}
+
+#our-clients{
+    min-height: 450px;
+    text-align: center;
+    background-color: #fef0d6;
+}
+#our-clients img{
+    width: 20%;
+    height: 10%;
+    padding: 0px 20px;
+}
+
+h3{
+    font-size: 35px;
+    padding-top: 30px;
+}
+
+.container{
+    min-height: 500px;
+    margin: 0px 30px;
+}
+
+#our-services .box{
+    width: 33%;
+    float: left;
+    text-align: center;
+    padding: 10px;
+}
+
+#our-services .box img{
+    width: 16em;
+}
+
+#our-services .box p{
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+h4{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+h5{
+    margin-bottom: 10px;
+}
+
+footer{
+    text-align: center;
+    background-color: #7e7eff;
+    color: #fff;
+    padding: 20px;
+}
+
+@media screen and(max-width:700px) {
+ .container{
+    clear: both;
+ }
+}
