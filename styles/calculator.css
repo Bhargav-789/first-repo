@@ -5,18 +5,18 @@
 }
 
 .wraper{
-    /* height: 100vh; */
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 38vw;   
     margin-top: 28vh;
+    
 }
 
 .calculator{
-    background-color: #ecf0f3 ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(49, 48, 48);
     width: 270px;
     padding: 30px;
     /* box-shadow: inset 5px 5px 12px #ffffff; */
-    box-shadow: inset 5px 5px 12px rgba(0, 0, 0, .16); 
+    /* box-shadow: inset 5px 5px 12px rgba(0, 0, 0, .16);  */
     border: none;  
     border-radius: 15px; 
 }
