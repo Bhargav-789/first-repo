@@ -25,7 +25,7 @@ body{
 .wraper .display{
     position: absolute;
     background: #1b1b1b;
-    height:75px ;
+    height: 75px ;
     width: 175px;
     margin-left: 7px;
     margin-top: 7.5px;
@@ -33,12 +33,17 @@ body{
 }
 /* time properties and values */
 #time{
-    font-size: 25px;
+    font-size: 20px;
     background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
-    letter-spacing: 2px;
+    letter-spacing: 0.5px;
     font-family: 'Poppins', sans-serif;
-    margin-top: 18px;
+    margin-top: 5px;
     -webkit-background-clip: text; color: transparent;
 
+}
+
+#date{
+    color: white;
+    margin-top: 10px;
 }
 
