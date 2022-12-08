@@ -8,9 +8,14 @@ function Displaydatetime(){
     let sec = today.getSeconds();
     let session = document.getElementById('session');
     
+    if(hrs>=12){
+        session.innerHTML = "PM"
+    }
+    else{
+        session.innerHTML = "AM"
+    }
     if(hrs>12){
        hrs = hrs-12;
-       session = "PM";
     }
     if(hrs<10){
         hrs = "0" + hrs;

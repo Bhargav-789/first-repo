@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wraper{
+    text-align: center;
+    /* justify-content: center; */
+    /* justify-items: center; */
+    background-color: blueviolet;
+    font-family: sans-serif;
+    height: 300px;
+    width: 500px;
+    margin-left: 30vw;
+    padding: 20px;
+}
+
+.wraper #centiMeters{
+    float: right;
+
+}
+
+.wraper #inches{
+ float: left;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+
+input{
+    text-align: center;
+}
+
+span{
+    margin-top: -30px;
+}
