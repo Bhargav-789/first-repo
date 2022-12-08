@@ -6,11 +6,11 @@ function Displaydatetime(){
     let hrs = today.getHours();
     let min = today.getMinutes();
     let sec = today.getSeconds();
-    let session =document.getElementById('session');
+    let session = document.getElementById('session');
     
     if(hrs>12){
        hrs = hrs-12;
-       session = "PM"
+       session = "PM";
     }
     if(hrs<10){
         hrs = "0" + hrs;
