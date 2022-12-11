@@ -119,4 +119,46 @@
 
   // let mmToCm= (x)=>x/10;
 
+  let greet = ("hi welcome to our organization!");
 
+  console.log(greet.toUpperCase());
+
+  console.log(greet.split());
+
+  // const nArr = [2,6,8,4,5,3];
+  //   function nArr
+  
+ 
+
+  
+
+let str = "good developers code";
+ 
+str.split(" ").forEach(word => {
+  let lowerWord = word.toLowerCase();
+  console.log(lowerWord[0].toUpperCase()+lowerWord.slice(1));
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// str.split(" ").forEach(word => {
+//   let lowerword = word.toLowerCase();
+//   console.log(lowerword[0].toUpperCase()+lowerword.slice(1));
+
+// });
