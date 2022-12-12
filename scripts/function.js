@@ -78,3 +78,17 @@ function greet(user){
  let result5 = add(8,20);
 //  console.log(result);
 printMessage(result5);
+
+//function slice split concatination
+
+function captalize(word){
+  let lowerWord = word.toLowerCase();
+  return lowerWord[0].toUpperCase()+lowerWord.slice(1);
+}
+
+let greetings = "hi welocome to our organization";
+
+greetings.split(" ").forEach(word => console.log(captalize(word)));
+
+let nameb = "bhargav mandapaka"
+ console.log(captalize(nameb));

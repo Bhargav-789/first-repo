@@ -56,10 +56,10 @@
 // while(num3<=10){
 //     console.log(num3++);
 // }
-// let num4=10
-// while(num4>=1){
-//     console.log(num4--);
-// }
+let num4=11
+while(num4>=1){
+    console.log(num4--);
+}
 // let g=11;
 // do{
 //     console.log(g++);
@@ -87,18 +87,18 @@
  // }
 
 //for of loop
-let data=[9,8,7,5,4,2,1]
+// let data=[9,8,7,5,4,2,1]
 
-for(let n of data){
-    console.log(n,data[1])
-}
+// for(let n of data){
+//     console.log(n,data[1])
+// }
 
 //for each loop
-let mul=[34,60,50,69]
+// let mul=[34,60,50,69]
 
-mul.forEach((n)=>{
-    console.log(n*2)
-});
+// mul.forEach((n)=>{
+//     console.log(n*2)
+// });
 
 // switch case
 
