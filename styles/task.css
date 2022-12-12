@@ -5,7 +5,7 @@
 }
 
 .container{
-    width: 700px;
+    width: 1000px;
     height: 1200px;
     margin: 10px;
    
@@ -15,40 +15,6 @@
     width: 200px;
     height: 200px;
     float: left;
-}
-
-.blue{
-    background-color: #0000ff;
-    margin: 10px;
-}
-
-.red{
-    background-color: #ff0000;
-    margin: 10px;
-}
-
-.yellow{
-    background-color: #ffff00;
-    margin: 10px;
-}
-
-.green{
-    background-color: #008000;
-    margin: 10px;
-}
-
-.aqua{
-    background-color: #00ffff;
-    margin: 10px;
-}
-
-.violet{
-    background-color: #ee82ee;
-    margin: 10px;
-}
-
-@media screen and ( max-width:786px ) {
-    .box{
-        clear: both;
-    }
+    margin-top: 10px;
+    margin-left: 100px;
 }
