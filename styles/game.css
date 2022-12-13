@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: blueviolet;
+}
+
+#box1{
+    float: left;
+}
+
+#box2{
+   float: right;
+}
+
+.vertical {
+    border-left: 1px solid black;
+    height: 100%;
+    position:absolute;
+    left: 50%;  
+}
+
+#p1{
+    position: absolute;
+    margin-left: 238px;
+    font-size: 60px;
+    margin-top: 20px;
+    color: #FF0063;
+    font-family: 'Rubik 80s Fade', cursive;
+}
+
+#p2{
+    position: absolute;
+    margin-left: -2px;
+    font-size: 60px;
+    margin-top: 20px;
+    color: #FF0063;
+    font-family: 'Rubik 80s Fade', cursive;
+}
+
+#random1{
+    position: absolute;
+    margin-left: 288px;
+    margin-top: 270px;
+    height: 50px;
+    width: 100px;
+    background: #1b1b1b;
+    color:#FF0063 ;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 40px;
+    border-radius: 5px;
+}
+
+#random2{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 270px;
+    height: 50px;
+    width: 100px;
+    background: #1b1b1b;
+    color:#FF0063 ;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 40px;
+    border-radius: 5px;
+}
+
+#leftButton{
+    font-size: 20px;
+    color: #F0CAA3;
+    margin-left: 240px;
+    margin-top: 50vh;
+    height: 60px;
+    width: 200px;
+    background-color: #3B185F;
+    border-radius: 10px;
+    border: 5px solid #C060A1 ;
+}
+
+#rightButton{
+    font-size: 20px;
+    color: #F0CAA3;
+    margin-right: 240px;
+    margin-top: 50vh;
+    height: 60px;
+    width: 200px;
+    background-color: #3B185F;
+    border-radius: 10px;
+    border: 5px solid #C060A1 ;
+}
