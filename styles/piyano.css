@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     background-color: #FCFFE7; 
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+ .piyano{
+    height: 30vh;
+    width: 23.8vw;
+    background: #000;
+    padding-top: 10px;
+}
+
+.white{
+    height: 28.3vh;
+    width: 3vw;
+    background-color:white;
+    border-radius: 0px 0px 5px 5px;
+    /* position: relative; */
+    padding-top: 100px;
+    padding-right: 10px;
+    font-weight: 600;
+    font-size: medium;
+    outline: none;
+}
+
+.black{
+    position: absolute;
+    height: 20vh;
+    width: 2vw;
+    background-color:#000;
+    color: #FCFFE7;
+    font-weight: 200;
+    font-size: medium;
+    outline: none;
+}
+
+#button1B{
+    /* position: absolute; */
+ margin-left: -21px;
+ border-radius: 0px 0px 5px 5px;
+} 
+
+#button2B{
+    margin-left: -18px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+#button3B{
+    margin-left: 26px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+
+#button4B{
+    margin-left: 26px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+#button5B{
+    margin-left: 26px;
+    border-radius: 0px 0px 5px 5px;
+}
