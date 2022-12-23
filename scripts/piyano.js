@@ -60,7 +60,13 @@ const playTune10=()=>{
 };
 
 //Tune11
-let audioAash = new Audio("./assests/Cb.mp3");
-const playTune11=() =>{
-    audioAash.play();
+let audioAAA = new Audio("./assests/A.mp3");
+const playTune11 = () =>{
+    audioC.play();
+};
+
+//Tune12
+let audioBB = new Audio("./assests/E.mp3");
+const playTune12=() =>{
+ audioE.play();
 };
