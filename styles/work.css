@@ -29,7 +29,7 @@ nav ul li{
 
 nav ul li a{
     position: relative;
-    margin-left: 20px;
+    margin-left: 15px;
     color: black;
     text-decoration: none;
 }
@@ -96,4 +96,53 @@ footer img{
 
 footer p{
     margin-bottom: 15%;
-}   
+}  
+
+#homeBurger {
+    margin-top: 10px;
+    display: none;
+}
+
+@media screen and (max-width:484px){
+    .container2{
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+    }
+
+    footer img{
+        margin: 10px;
+    }
+    .menu{
+        display: none;
+    
+    }
+
+    #homeBurger {
+        /* margin-bottom: 10px; */
+        display: block;
+        position: absolute;
+    }
+
+  .menu.active{
+    display: flex;
+  }
+
+  nav ul li a{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin-right: 0px;
+    padding-right: 30px;
+} 
+}
+
+/* @media screen and(max-width:280px) {
+    nav ul li a{
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+        margin-right: 0px;
+        padding-right: 0px;
+    } 
+} */
