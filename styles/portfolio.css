@@ -25,7 +25,7 @@ nav{
 
 nav ul li{
     display: inline-block;
-    margin: 10px 30px;
+    margin: 10px 22px;
     cursor: pointer;
 }
 
@@ -241,10 +241,6 @@ footer p{
         display: none;
     
     }
-    /* nav ul li{
-        display: flex;
-        flex-direction: column;
-    } */
 
     #homeBurger {
         /* margin-bottom: 10px; */
