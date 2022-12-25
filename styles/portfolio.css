@@ -236,21 +236,29 @@ footer p{
         padding: 5px;
     }
 
-    nav ul li{
+
+    .menu{
         display: none;
-        margin: 6px 15px;
-        cursor: pointer;
-        width: 100%;
+    
     }
+    /* nav ul li{
+        display: flex;
+        flex-direction: column;
+    } */
 
     #homeBurger {
-        /* margin-top: 10px; */
+        /* margin-bottom: 10px; */
         display: block;
+        position: absolute;
     }
+
+  .menu.active{
+    display: flex;
+  }
 
 }
 
-@media screen and (max-width:280px){
+@media screen and (max-width:320px){
     button{
         margin-left: 40px;
     }
@@ -272,4 +280,12 @@ footer p{
         height: 150px;
         border-radius: 5px;
     }
+ nav ul li a{
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+        margin-right: 0px;
+        padding-right: 0px;
+    } 
+
 }

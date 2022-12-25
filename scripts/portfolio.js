@@ -1,5 +1,6 @@
-let link = document.getElementById('links');
+let toggle = document.querySelector("#homeBurger")
+let menu = document.querySelector(".menu")
 
-function menuOpen(){
-    link.style.right = "0px"
+toggle.onclick = function(){
+    menu.classList.toggle('active')
 }
