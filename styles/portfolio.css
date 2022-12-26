@@ -279,7 +279,7 @@ footer p{
  nav ul li a{
         display: flex;
         flex-direction: column;
-        font-size: 10px;
+        font-size: 13px;
         margin-right: 0px;
         padding-right: 0px;
     } 
