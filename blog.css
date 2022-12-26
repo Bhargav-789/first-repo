@@ -69,3 +69,27 @@ footer img{
 footer p{
     margin-bottom: 10%;
 }
+
+#homeBurger {
+    margin-top: 10px;
+    display: none;
+}
+
+@media screen and (max-width:350px){
+    .menu{
+        display: none;
+    
+    }
+
+    #homeBurger {
+        /* margin-bottom: 10px; */
+        display: block;
+        position: absolute;
+    }
+
+  .menu.active{
+    display: flex;
+    margin-right: 25px;
+    margin-top: 5px;
+  }
+}
